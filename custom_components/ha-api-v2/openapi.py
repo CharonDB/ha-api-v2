@@ -17,7 +17,7 @@ class OpenAPIView(RegistryView):
         hass = request.app["hass"]
         openapi = {
             "openapi": "3.0.3",
-            "info": {"title": "HA API (Unofficial)", "version": "1.0.0"},
+            "info": {"title": "HomeAssistant V2 API (OpenAPI)", "version": "1.0.0"},
             "paths": {},
             "components": {"schemas": {}},
         }
