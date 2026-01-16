@@ -2,7 +2,8 @@
   "domain": "ha_api",
   "name": "HA API (Unofficial)",
   "version": "1.0.0",
-  "documentation": "https://example.com",
+  "documentation": "https://github.com/CharonDB/ha-api-v2",
+  "issue_tracker": "https://github.com/CharonDB/ha-api-v2/issues",
   "dependencies": ["pydantic", "fastapi"],
   "codeowners": ["@charondb"],
   "iot_class": "local_polling"
