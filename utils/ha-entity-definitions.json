@@ -1,0 +1,19 @@
+{
+  "schemas": [
+    {
+      "name": "Area",
+      "file": "home-assistant-core\\homeassistant\\helpers\\area_registry.py",
+      "class": "AreaEntry"
+    },
+    {
+      "name": "Floor",
+      "file": "home-assistant-core\\homeassistant\\helpers\\floor_registry.py",
+      "class": "FloorEntry"
+    },
+    {
+      "name": "Label",
+      "file": "home-assistant-core\\homeassistant\\helpers\\label_registry.py",
+      "class": "LabelEntry"
+    }
+  ]
+}

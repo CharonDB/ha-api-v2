@@ -1,0 +1,105 @@
+{
+  "openapi": "3.0.3",
+  "info": {
+    "title": "Home Assistant Generated API",
+    "version": "1.0.0",
+    "description": "OpenAPI schemas generated from Python classes via AST parsing."
+  },
+  "paths": {},
+  "components": {
+    "schemas": {
+      "Area": {
+        "type": "object",
+        "properties": {
+          "aliases": {
+            "type": "object"
+          },
+          "floor_id": {
+            "type": "string",
+            "nullable": true
+          },
+          "humidity_entity_id": {
+            "type": "string",
+            "nullable": true
+          },
+          "icon": {
+            "type": "string",
+            "nullable": true
+          },
+          "id": {
+            "type": "string"
+          },
+          "labels": {
+            "type": "object"
+          },
+          "picture": {
+            "type": "string",
+            "nullable": true
+          },
+          "temperature_entity_id": {
+            "type": "string",
+            "nullable": true
+          },
+          "_cache": {
+            "type": "object"
+          }
+        },
+        "required": [
+          "aliases",
+          "floor_id",
+          "humidity_entity_id",
+          "icon",
+          "id",
+          "picture",
+          "temperature_entity_id"
+        ]
+      },
+      "Floor": {
+        "type": "object",
+        "properties": {
+          "aliases": {
+            "type": "object"
+          },
+          "floor_id": {
+            "type": "string"
+          },
+          "icon": {
+            "type": "string",
+            "nullable": true
+          },
+          "level": {
+            "type": "integer",
+            "nullable": true
+          }
+        },
+        "required": [
+          "aliases",
+          "floor_id"
+        ]
+      },
+      "Label": {
+        "type": "object",
+        "properties": {
+          "label_id": {
+            "type": "string"
+          },
+          "description": {
+            "type": "string",
+            "nullable": true
+          },
+          "color": {
+            "type": "string",
+            "nullable": true
+          },
+          "icon": {
+            "type": "string",
+            "nullable": true
+          }
+        },
+        "required": [
+          "label_id"
+        ]
+      }
+    }
+  }
+}

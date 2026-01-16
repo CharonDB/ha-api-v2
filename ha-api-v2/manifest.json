@@ -1,0 +1,9 @@
+{
+  "domain": "ha_api",
+  "name": "HA API (Unofficial)",
+  "version": "1.0.0",
+  "documentation": "https://example.com",
+  "dependencies": ["pydantic", "fastapi"],
+  "codeowners": ["@charondbe"],
+  "iot_class": "local_polling"
+}
