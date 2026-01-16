@@ -1,7 +1,7 @@
 {
   "domain": "ha_api",
   "name": "HA API (Unofficial)",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "documentation": "https://example.com",
   "dependencies": ["pydantic", "fastapi"],
   "codeowners": ["@charondb"],
